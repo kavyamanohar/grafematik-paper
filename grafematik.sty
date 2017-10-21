@@ -1,0 +1,45 @@
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+%\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+
+%\renewcommand\@maketitle{%
+%  \newpage
+%  \null
+%  \vskip 0.5em%
+%%  \begin{center}%
+% % \let \footnote \thanks
+%    {% set colour and font for the title 
+%    \color{RoyalBlue}\sffamily\bfseries\huge
+%    \@title \par}%
+%    \vskip 1em%
+%    {% set colour and font for the author
+%      \color{CornflowerBlue}\sffamily\large
+%      \lineskip .5em%
+%      \begin{tabular}[t]{c}%
+%        \@author
+%      \end{tabular}\par}%
+%    \vskip 0.5em%
+%    {% set colour and font for the date
+%    \color{CornflowerBlue}\sffamily\large \@date}%
+% % \end{center}%
+%  \par
+%  \vskip 1.5em}
+
+%% Colors
+\renewcommand\section{%
+\@startsection{section}{1}{\z@}%
+              {-3.5ex \@plus -1ex \@minus -.2ex}%
+              {2.3ex \@plus.2ex}%
+              {\color{RoyalBlue}\sffamily\Large\bfseries}}
+\renewcommand\subsection{%
+\@startsection{subsection}{2}{\z@}%
+              {-3.25ex\@plus -1ex \@minus -.2ex}%
+              {1.5ex \@plus .2ex}%
+              {\color{RoyalBlue}\sffamily\large\bfseries}}
