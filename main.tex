@@ -25,7 +25,7 @@ Malayalam is a language spoken in India, predominantly in the state of Kerala wi
 \section{Introduction}
 
 \paragraph{}
-With 38 million native speakers Malayalam is the official language of Kerala, in southern India. Malayalam used to be written in Vattezhuthu, the then script for Tamil, another south Indian language. The modern Malayalam script evolved from Grantha alphabet which was a script for Sanskrit. Both Vattezhuthu and Grantha have their roots in the Brahmi script\footnote{Malayalam Script in English Wikipedia: \url{https://en.wikipedia.org/wiki/Malayalam_script}}. Unicode has encoded 18 vowels and 37 consonants as of today, some of them are archaic.  The Figure \ref{unicode} illustrates the Malayalam code block as per Unicode 10.0\footnote{Malayalam Unicode block: \url{https://unicode.org/charts/PDF/U0D00.pdf}}. 
+With 38 million native speakers Malayalam is the official language of Kerala, in southern India. Malayalam used to be written in Vattezhuthu,the earliest known sample dating back to 830 AD. The modern Malayalam script evolved from Grantha alphabet which was a script for Sanskrit. Both Vattezhuthu and Grantha have their roots in the Brahmi script\footnote{Malayalam Script in English Wikipedia: \url{https://en.wikipedia.org/wiki/Malayalam_script}}. Unicode has encoded 18 vowels and 37 consonants as of today, some of them are archaic.  The Figure \ref{unicode} illustrates the Malayalam code block as per Unicode 10.0\footnote{Malayalam Unicode block: \url{https://unicode.org/charts/PDF/U0D00.pdf}}. 
 
 
 \begin{figure}[h!]
@@ -37,13 +37,13 @@ With 38 million native speakers Malayalam is the official language of Kerala, in
 
 
 \paragraph{}
-Malayalam script is abugida, or alphasyllabary. That is, consonant–vowel sequences are written as a unit: each unit is based on a consonant or conjunct letter, and vowel notation is secondary. Vowels have independent existence, but only at word beginnings. This is the common characteristic of Brahmic family of scripts from South and Southeast Asia.
+Malayalam script is abugida, or alphasyllabary. That is, consonant–vowel sequences are written as a unit: each unit is based on a consonant or conjunct letter, and vowel notation is secondary. Vowel notations that modify the consonants is in the form of diacritics or vowel signs. Vowels have independent existence only at word beginnings. This is the common characteristic of Brahmic family of scripts from South and Southeast Asia.
 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.4]{images/malayalamExamples.png}
-	\caption{Few samples of graphemes in Malayalam}
+	\caption{Few samples of graphemes in Malayalam-ADD PHONETIC EQUIVALENT HERE}
 	\label{malayalamsamples}
 \end{figure} 
 
@@ -52,17 +52,64 @@ Malayalam script is abugida, or alphasyllabary. That is, consonant–vowel seque
 The script has acquired its uniqueness with it's complex shaped ligatures formed by the consonants and conjuncts with signed vowel forms. Conjuncts are formed by a sequence of two more consonants. The conjunct grapheme usually has a shape smoothly blend from the constituent consonants. Figure \ref{malayalamsamples} illustrates some samples.
 
 
+\section{Nature of Malayalam Script}
+\label{scriptnature}
+Malayalam script as known today has 18 vowels, 39 consonants apart from various numerals, measuring units etc. Some are archaic in nature. The general nature of the script since its early days of evolution can be consolidated as below \cite{kpanineeyam} .
+
+\begin{enumerate}
+	\item
+	Vowels and consonants are the basic building blocks of Malayalam script.
+	\item
+	Vowels have stand alone existence in their pure form. Vowels in Malayalam are {\manjari അ} (a), {\manjari ഇ} (i), {\manjari എ} (e) etc.
+	\item
+	Vowels also appear as signed form modifying a consonant sound. Vowel signs have no existence without a consonant. Vowel signs in Malayalam are {\manjari  ി} (i), {\manjari ീ} (iː), {\manjari െ} (e), {\manjari ൊ } (o)etc.
+	\item Consonants in Malayalam always have the inherent vowel /a/, also known as \textit{schwa} present in them. Consonants in Malayalam are {\manjari ക} (ka), {\manjari ത} (t̪a), {\manjari ഗ} (ɡa), {\manjari ദ} (d̪a), {\manjari ധ} (d̪ʱa) etc.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\textwidth]{images/vowels.png}
+		\caption{The vowels in Malayalayam. There are independant vowels and dependant vowel sign forms.}
+		\label{vowels}
+	\end{figure} 
+	
+	\item
+	Any other vowels sound, other than /a/  associated with a consonant is written as a signed form of the consonant. The vowel signs can  appear left, right or both with respect to a consonant. Some signs modify the shape of base grapheme. Examples for consonants with vowel signs:  {\manjari കി} (ki), {\manjari ഗു} (ɡu), {\manjari ധെ} (d̪ʱe), {\manjari ദൊ} (d̪o). 
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\textwidth]{images/ka-vowelsigns.png}
+		\caption{The consonant ക(ka) is shown with all possible associated vowel signs.}
+		\label{ka-vowels}
+	\end{figure}
+	 
+	\item 
+	The removal of inherent /a/ in a consonant is marked in the script by a special character \textit{virama}. Example for consonant with \textit{virama} ({\manjari ് }) sign: {\manjari ക്} (k). \textit{Virama} after a consonant not only removes inherent /a/ but also indicate no vowel sound follows it. 
+	
+	{\manjari ക} (ka) + {\manjari ് } (\textit{virama})  $\rightarrow$ {\manjari ക്} (k)
+	
+	\item
+	A conjunct is formed by  a sequence of consonants connected using \textit{virama}. 
+	Examples:\\ {\manjari ക} (ka) + {\manjari ് } (\textit{virama}) + {\manjari ത} (t̪a) $\rightarrow$ {\manjari ക്ത} (kt̪a)\\
+	{\manjari ഗ} (ɡa) + {\manjari ് } (\textit{virama}) + {\manjari ദ}  (d̪a)$\rightarrow$ {\manjari ഗ്ദ} (ɡd̪a) \\
+	A conjunct can again connect to another consonant using \textit{virama} and form a longer conjunct as in:\\ {\manjari ഗ്ദ} (ɡd̪a) + {\manjari ്} (\textit{virama})  + {\manjari ധ} (d̪ʱa) $\rightarrow$ {\manjari ഗ്ദ്ധ} (ɡd̪d̪ʱa)
+	\item	
+	Every conjunct can be modified by a vowel sign forming a new ligature. \\
+	{\manjari ഗ്ദ} (ɡd̪a) +   {\manjari ് } (\textit{virama})+ {\manjari ധ} (d̪ʱa) + {\manjari ു} (u) $\rightarrow$ {\manjari ഗ്ദ്ധു} (ɡd̪d̪ʱu)
+	\item
+	Some consonants involved in the formation of conjuncts have signed forms. Example:\\ {\manjari ക} (ka)+ {\manjari ്}(\textit{virama})+ {\manjari ര} (ɾa) $\rightarrow$ {\manjari ക്ര} (kɾa)\\ 
+	{\manjari ക} (ka)+ {\manjari ് }(\textit{virama})+ {\manjari ‌ല} (la) $\rightarrow$ {\manjari ക്ല} (kla)\\ {\manjari ക} (ka)+ {\manjari ്}(\textit{virama})+ {\manjari ‌യ} (ja) $\rightarrow$  {\manjari ക്യ} (kja)\\  {\manjari ക} (ka)+ {\manjari ്}(\textit{virama})+ {\manjari വ} (ʋa)$\rightarrow$  {\manjari ക്വ} (kʋa) \\  {\manjari ര} (ɾa)+ {\manjari ്}(\textit{virama})+ {\manjari ക} (ka) $\rightarrow$  {\manjari ൎക } (ɾka) : This special sign is named \textit{dot reph}.
+	
+	
+	\item 
+	Certain consonants have a unique grapheme representation in their pure form named \textit{chillu}. {\manjari ൿ} (k), {\manjari ൾ} (ɭ), {\manjari ൺ} (ɳ) , {\manjari ൻ} (n̪), {\manjari ൽ} (l), {\manjari ർ} (r)
+\end{enumerate}
+
+The above nature of the script makes the number of unique graphemes to exceed 1200\cite{clement} . Attempts of script reformation which happened during the later half of 20th century was aimed at simplifying the script to bring down the number of graphemes. Detailed discussion on script reformation will follow in a later section.
+
 \section{Script in Early Printing Era}
 
 \paragraph{}
-The shapes of conjuncts, relative positioning of signs and their sizes have changed over time to match the needs of writing methods. Stylus on dry palm leaves gave limited flexibility and the graphemes were rarely perfect rounds. But pen on paper made it more curvy. See Figure \ref{palmleaves}.
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.8\textwidth]{images/manuscipt.png}
-	\caption{Manuscript on palm leaves}
-	\label{palmleaves}
-\end{figure} 
+The shapes of conjuncts, relative positioning of signs and their sizes have changed over time to match the needs of writing methods.
 
 \paragraph{}
 The first ever book in Malayalam script was printed in Rome, in 1772. Printing in Malayalam started natively during 1820s\cite{babucherian}. When printing technology started getting popular there was a requirement to cast movable types in huge numbers. Even though there were less than a hundred basic characters, the orthographic style demanded separate types for conjuncts, and their signed vowel forms. Apart from vowels, some consonants too have signed notations, further increasing the number of types needed in the foundry. 
@@ -74,6 +121,23 @@ The first ever book in Malayalam script was printed in Rome, in 1772. Printing i
 	\label{Samkshepam}
 \end{figure} 
 
+\begin{figure}[H]
+	
+	\begin{subfigure}{0.75\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{images/newtestament1829.png}
+		\caption{New Testament - 1829}
+		\label{newtestament}
+	\end{subfigure}
+	\\ \\
+	\begin{subfigure}{0.75\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{images/1930-Sabdatharavali.png}
+		\caption{Sabdatharavali - 1930 }
+		\label{Sabdatharavali}
+	\end{subfigure}
+	\caption{Samples of print documents. Complex graphemes formed by consonant sequences and signed conjuncts can be seen.}
+\end{figure}
 
 \paragraph{}
 The first printed book in Malayalam using movable types, {\manjari സംക്ഷെപവെദാർത്ഥം} (Samkshepavedartham) in 1772 had more than thousand unique types\cite{babucherian}. The manual labor on typesetting and lay outing were high for the same reason. Figure \ref{Samkshepam} shows pages from the catechism book Samkshepavedartham. The script is mostly rectangular. The types were made and printing was done in Rome. 
@@ -81,23 +145,7 @@ The first printed book in Malayalam using movable types, {\manjari സംക്�
 \paragraph{}
 The first native type casting and printing was done by Benjamin Bailey, an Anglican missionary in 1829\cite{babucherian}.  His contributions as a typographer made the curvy style of the Malyalam orthography popular\cite{gupthannair}. Figure \ref{newtestament}, shows pages from The New Testament printed using the types designed by Benjamin Bailey, imprinted in 1829\cite{babucherian}. The script continued to evolve by separating some vowel sign types ({\manjari{  ി, ീ } }) from the consonant/conjunct grapheme. Still the richness of conjuncts and their signed forms were largely retained. It can be seen from Figure \ref{Sabdatharavali}. 
 
-\begin{figure}[H]
 
-\begin{subfigure}{0.75\textwidth}
- \centering
- \includegraphics[width=\linewidth]{images/newtestament1829.png}
- \caption{New Testament - 1829}
- \label{newtestament}
-\end{subfigure}
-\\ \\
-\begin{subfigure}{0.75\textwidth}
- \centering
- \includegraphics[width=\linewidth]{images/1930-Sabdatharavali.png}
- \caption{Sabdatharavali - 1930 }
- \label{Sabdatharavali}
-\end{subfigure}
-\caption{Samples of print documents. Complex graphemes formed by consonant sequences and signed conjuncts can be seen.}
-\end{figure}
 
 
 \section{Script Reformation}
@@ -131,38 +179,7 @@ To solve this either the typewriter or language had to be redesigned. There were
 The order was to discard the usage of complex conjuncts and to detach the vowel notations from the consonants and conjuncts. Being a forced intervention, this was a major event to be marked in the history of orthographic evolution. 
 
 \paragraph{}
-The script variant of Malayalam that came into existence after the reformation order will henceforth be referred as \textit{reformed orthography}. To the understand the effects of the order, we need to examine the characteristics of graphemes in \textit{traditional orthography} of Malayalam script.
-
-\subsection{Nature of script}
-
-\begin{itemize}
-	\item
-	Vowels and consonants are the basic building blocks of Malayalam script.
-	\item
-	Vowels have stand alone existence in their pure form. Vowels in Malayalam are {\manjari അ} (a), {\manjari ഇ} (i), {\manjari എ} (e) etc.
-	\item
-	Vowels also appear as signed form modifying a consonant sound. Vowel signs have no existence without a consonant. Vowel signs in Malayalam are {\manjari  ി} (i), {\manjari ീ} (iː), {\manjari െ} (e), {\manjari ൊ } (o)etc.
-	\item Consonants in Malayalam always have the inherent vowel /a/, also known as \textit{schwa} present in them. Consonants in Malayalam are {\manjari ക} (ka), {\manjari ത} (t̪a), {\manjari ഗ} (ɡa), {\manjari ദ} (d̪a), {\manjari ധ} (d̪ʱa) etc.
-	\item
-	Any other vowels sound, other than /a/  associated with a consonant is written as a signed form of the consonant. The vowel signs can  appear left, right or both with respect to a consonant. Some signs modify the shape of base grapheme. Examples for consonants with vowel signs:  {\manjari കി} (ki), {\manjari ഗു} (ɡu), {\manjari ധെ} (d̪ʱe), {\manjari ദൊ} (d̪o) 
-	\item 
-	The removal of inherent /a/ in a consonant is marked in the script by a special character \textit{virama}. Example for consonant with \textit{virama} ({\manjari ് }) sign: {\manjari ക്} (k). \textit{Virama} after a consonant not only removes inherent /a/ but also indicate no vowel sound follows it. 
-	\item
-	A conjunct is formed by  a sequence of consonants connected using \textit{virama}. 
-	Examples:\\ {\manjari ക} (ka) + {\manjari ് } (\textit{virama}) + {\manjari ത} (t̪a) $\rightarrow$ {\manjari ക്ത} (kt̪a)\\
-	 {\manjari ഗ} (ɡa) + {\manjari ് } (\textit{virama}) + {\manjari ദ}  (d̪a)$\rightarrow$ {\manjari ഗ്ദ} (ɡd̪a) \\
-	 A conjunct can again connect to another consonant using \textit{virama} and form a longer conjunct as in:\\ {\manjari ഗ്ദ} (ɡd̪a) + {\manjari ്} (\textit{virama})  + {\manjari ധ} (d̪ʱa) $\rightarrow$ {\manjari ഗ്ദ്ധ} (ɡd̪d̪ʱa)
-	\item	
-	Every conjunct can be modified by a vowel sign forming a new ligature. \\
-	{\manjari ഗ്ദ} (ɡd̪a) +   {\manjari ് } (\textit{virama})+ {\manjari ധ} (d̪ʱa) + {\manjari ു} (u) $\rightarrow$ {\manjari ഗ്ദ്ധു} (ɡd̪d̪ʱu)
-	\item
-	Some consonants involved in the formation of conjuncts have signed forms. Example:\\ {\manjari ക} (ka)+ {\manjari ്}(\textit{virama})+ {\manjari ര} (ɾa) $\rightarrow$ {\manjari ക്ര} (kɾa)\\ 
-	{\manjari ക} (ka)+ {\manjari ് }(\textit{virama})+ {\manjari ‌ല} (la) $\rightarrow$ {\manjari ക്ല} (kla)\\ {\manjari ക} (ka)+ {\manjari ്}(\textit{virama})+ {\manjari ‌യ} (ja) $\rightarrow$  {\manjari ക്യ} (kja)\\  {\manjari ക} (ka)+ {\manjari ്}(\textit{virama})+ {\manjari വ} (ʋa)$\rightarrow$  {\manjari ക്വ} (kʋa) \\  {\manjari ര} (ɾa)+ {\manjari ്}(\textit{virama})+ {\manjari ക} (ka) $\rightarrow$  {\manjari ൎക } (ɾka) : This special sign is named \textit{dot reph}.
-	
-	        
-	\item 
-	Certain consonants have a unique grapheme representation in their pure form named \textit{chillu}. {\manjari ൿ} (k), {\manjari ൾ} (ɭ), {\manjari ൺ} (ɳ) , {\manjari ൻ} (n̪), {\manjari ൽ} (l), {\manjari ർ} (r)
-\end{itemize}
+The script variant of Malayalam that came into existence after the reformation order will henceforth be referred as \textit{reformed orthography}. Reformed orthograhy consists only of a smaller set of graphemes than in the exhaustive set described in section \ref{scriptnature}.
 
 
 \begin{figure}[h!]
@@ -246,7 +263,7 @@ The signed \textit{below base modifiers} of {\manjari  ്‌ല  (്ല )  } m
 Table \ref{orthographycomparison} compares the graphemes formed by sequence of basic characters in traditional and reformed orthography. As can be seen from the first four rows, the detached sign forms in traditional orthography are retained as such in the reformed one. Also some commonly used conjuncts are retained as such. The difference between two orthography variants becomes spectacular in the forthcoming rows. Complex ligatures formed by sequence of consonants gets split up by placing \textit{virama} sign in between. Joined signed forms in traditional orthography get detached in the reformed variant.
 
 \paragraph{}
-It is important to note that the reformation order introduce the detached form of vowel signs for {\manjari ഉ } and {\manjari ഊ } as {\manjari ു } and {\manjari ൂ } respectively. Their usage is evident from rows 5, 6, 8 and 12 in Table \ref{orthographycomparison}.
+It is important to note that the reformation order introduce the detached form of vowel signs for {\manjari ഉ } and {\manjari ഊ } as {\manjari ു } and {\manjari ൂ } respectively. In the exhaustive set of traditional orthography u and uː had very diverse sign forms \cite{kavya}. Their usage is evident from rows 5, 6, 8 and 12 in Table \ref{orthographycomparison}.
 
 \subsection{Adoption of Reformed Orthography}
 \paragraph{}
@@ -380,11 +397,13 @@ Technology played a crucial role in defining the orthography of Malayalam from p
 Reformed orthography is sometimes referred as \textit{modern} and traditional as \textit{old}. But as traditional script is getting more popular in contemporary usage, calling it \textit{old} may not be right. So we consciously avoided those phrases in this paper.
 
 \begin{thebibliography}{9}
-
+	
+\bibitem{kpanineeyam} A. R. Rajaraja Varma, \textit{Kerala Panineeyam} {\manjari{(കേരളപാണിനീയം)} }, 1917
+\bibitem{clement} Clemente Peani, \textit{Alphabetum grandonico-malabaricum sive samscrudonicum} , 1772
 \bibitem{babucherian} Babu Cheriyan, \textit{Benjamin Bailiyum Malayala Sahithyavum} {\manjari{(ബെഞ്ചമിൻ ബെയിലിയും മലയാള സാഹിത്യവും}) }, Mahatma Gandhi University, Kottayam, 2008
 \bibitem{gupthannair} S. Gupthan Nair, \textit{Gadyam Pinnitta Vazhikal}{\manjari{ (ഗദ്യം പിന്നിട്ട വഴികൾ)} }, DC Books, Kottayam
 \bibitem{1971go} Order by the Government of Kerala, India, G. O. (P) 37/71/Edn. , \textit{Malayalam Script- Adoption of New Script for Use-Orders Issued}, Dated 23 March, 1971.
-
+\bibitem{kavya} Kavya Manohar, \textit{u and uː vowel signs of Malayalam},\\ \url{https://kavyamanohar.com/post/2018-04-15-u-vowel-signs-malayalam/}
 \end{thebibliography}
 
 \end{document}
