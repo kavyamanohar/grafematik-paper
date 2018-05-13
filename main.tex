@@ -43,7 +43,7 @@ Malayalam script is abugida, or alphasyllabary. That is, consonant–vowel seque
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.4]{images/malayalamExamples.png}
-	\caption{Few samples of graphemes in Malayalam-ADD PHONETIC EQUIVALENT HERE}
+	\caption{Few samples of graphemes in Malayalam}
 	\label{malayalamsamples}
 \end{figure} 
 
@@ -257,7 +257,7 @@ The signed form of consonants are to be separated from the base grapheme as in {
 \item
 The signed \textit{below base modifiers} of {\manjari  ്‌ല  (്ല )  } may be retained as such {\manjari പ്ല } or split using \textit{virama} sign as {\manjari  പ്‌ല }.
 
-As per the governement order the reformed orthography would contain only90 unique graphemes.
+As per the governement order the reformed orthography would retain only 90 unique graphemes.
 \end{itemize}
 
 \paragraph{}
@@ -298,18 +298,70 @@ The digitization of printing by early 1990s was yet another remarkable event. Th
 At the same time, writing Malayalam in non-digital, non-printing contexts continue to use traditional orthography. Wall paintings, artistic lettering used in magazines, movie titles continued using it as illustrated above.
 
 \paragraph{}
-\textit{Rachana Aksharavedi}, an organization formed 1998, was successful in bringing back the exhaustive  orthography set with the help of then existing technology. At that time, Malayalam was not encoded in Unicode. Rachana Aksharavedi developed a font named \textit{Rachana} with about 1200 glyphs. Since there is no Unicode or opentype technology, it was a set of 6 fonts, each covering about 200 glyphs mapped to ASCII codepoints. A special editor known as Rachana Editor was required to automatically switch between these fonts and display Malayalam with data being English. This brave attempt was widely appreciated. A couple of years later, in 2001 Unicode encoding for Malayalam happened.
+\textit{Rachana Aksharavedi}, an organization formed 1998 was successful in bringing back the exhaustive traditional orthography set with the help of then existing technology. At that time, Malayalam was not encoded in Unicode. Rachana Aksharavedi developed a font named \textit{Rachana} with about 1200 glyphs. Since there is no Unicode or opentype technology, it was a set of 6 fonts, each covering about 200 glyphs mapped to ASCII codepoints. A special editor known as Rachana Editor was required to automatically switch between these fonts and display Malayalam with data being English. This brave attempt was widely appreciated. A couple of years later, in 2001 Unicode encoding for Malayalam happened.
 
 \subsection{Unicode and Advanced Digital Typography}
 
 \paragraph{}
-Unicode did not differentiate between the traditional and reformed orthography. Orthography was left to the typography and fonts layers. That means, the digital representation using unicode code points remains same, the readers see that data using a font following traditional or reformed orthography as per their choice. Because of this abstraction, the reformation had no impact on the processing of textual data.
+Unicode did not differentiate between the traditional and reformed orthography. Orthography style was left to the typography and fonts layers.The ISO 639-1 also does not differentiate between the traditional and reformed orthgraphy\cite{thottingal}. As per ISO 639-1 the language code for Malayalam is \textbf{ml}. That means, the digital representation using unicode code points remains same, the readers see that data using a font following traditional or reformed orthography as per their choice. Because of this abstraction, the reformation had no impact on the processing of textual data.
 
 \paragraph{}
 With the advent of Unicode based digital typography, complex conjunct formations and their rendering were no longer an impossibility. With only the basic graphemes encoded in Unicode, any long sequence of consonants and signs could be mapped to a single conjunct grapheme in signed or unsigned form. Complex rendering rules of the script can easily be handled by modern rendering engines. With these technical advancements, fonts which could very well support the traditional orthographic scheme of the Malayalam script emerged. 
 
+
 \paragraph{}
-The Rachana font was ported to Unicode. Parallel to that, more unicode fonts emerged, notably AnjaliOldLipi. In 2006, Swathanthra Malayalam Computing (SMC), a free software developer community became active in Malayalam computing. Along with various language processing tools and technology improvements, SMC released a dozen of Malayalam fonts. With one exception, all fonts followed traditional orthography and embraced the opentype technology. GNU/Linux systems came with these traditional orthography fonts by default. Schools and government institutions were using GNU/Linux systems because of Kerala government policy to use Free Software. The userbase of traditional orthography started to expand among digital Malayalam users. The IT education curriculum in schools also widely used these fonts.
+The Rachana font was ported to Unicode. Parallel to that, more unicode fonts emerged, notably AnjaliOldLipi. In 2006, Swathanthra Malayalam Computing (SMC), a free software developer community became active in Malayalam computing. Along with various language processing tools and technology improvements, SMC released a dozen of Malayalam fonts. With one exception, all fonts followed traditional orthography and embraced the opentype technology. 
+
+\begin{table}
+	\centering
+	
+	\begin{tabular}{|c|l|c|c|L|}
+		\hline 
+		No.& Font & Orthography style & Vendor & Remarks \\ 
+		\hline 
+		\hline
+		1. & Rachana & Traditional & SMC  & Available in Ubuntu and other Linux distros \\ 
+		\hline 
+		2. &  Meera &Traditional  & SMC & '' \\ 
+		\hline 
+		3. & Manjari &Traditional  & SMC & " \\ 
+		\hline 
+		4. & AnjaliOldLipi &Traditional  & SMC & " \\ 
+		\hline 
+		5. & Chilanka &Traditional  & SMC & " \\ 
+		\hline 
+		6. & Dyuthi & Traditional  & SMC & " \\ 
+		\hline 
+		7. & Keraleeyam & Traditional  & SMC & " \\ 
+		\hline 
+		8. & Uroob &  Traditional  & SMC & " \\ 
+		\hline 
+		9. & Manjari & Traditional  & SMC & " \\ 
+		\hline 
+		10. & Karumbi & Traditional  & SMC & " \\ 
+		\hline
+		11. & RaghuMalayalam & Reformed  & SMC & " \\ 
+		\hline 
+		12. & NotoSans Malayalam & Reformed  & Google & Default in Android OS \\ 
+		\hline
+		13. & Nirmala & Reformed  & Microsoft & Default in Windows OS \\ 
+		\hline
+		14. & Sangam & Reformed  & Apple & Default in Apple products \\ 
+		\hline
+	\end{tabular} 
+	
+	\caption{List of popular unicode fonts in Malayalam}
+	\label{popularfonts}
+\end{table}
+
+
+\paragraph{}
+GNU/Linux systems came with these traditional orthography fonts by default. Schools and government institutions were using GNU/Linux systems because of Kerala government policy to use Free Software. The userbase of traditional orthography started to expand among digital Malayalam users. The IT education curriculum in schools also widely used these fonts. 
+
+\paragraph{}
+Table \ref{popularfonts} lists the Malayalam unicode fonts available by default in various operating systems. Availability of good quality traditional orthography fonts accelerated the usage of traditional orthography in digital space. 
+
+
 
 \begin{figure}[H]
 	\centering
@@ -319,11 +371,12 @@ The Rachana font was ported to Unicode. Parallel to that, more unicode fonts eme
 \end{figure}
 
 \paragraph{}
-The typesetting tools and software adapted to ASCII based fonts were the default in the publishing industry since 1990s. Even after the encoding of Malayalam in Unicode in \textit{2001}, the printing and publishing industry continued their practices. The Figure \ref{textbook2011}, shows the usage of ASCII based reformed orthography in school textbooks printed in 2011. This was largely due to lack of unicode and complex script rendering support in major typesetting systems like Adobe Indesign. But these typesetting systems started supporting complex scripts and now we are seeing a highly accelerated adoption of Unicode and traditional orthography in print.
+The typesetting tools and software adapted to ASCII based fonts were the default in the publishing industry since 1990s. Even after the encoding of Malayalam in Unicode in 2001, the printing and publishing industry continued their practices. The Figure \ref{textbook2011}, shows the usage of ASCII based reformed orthography in school textbooks printed in 2011. This was largely due to lack of unicode and complex script rendering support in major typesetting systems like Adobe Indesign. But these typesetting systems started supporting complex scripts and now we are seeing a highly accelerated adoption of Unicode and traditional orthography in print.
 
 \section{Contemporary Script Usage}
-\paragraph{}
-Now that the technology has matured enough to support the traditional orthography, it is becoming more and more popular. The traditional orthography fonts by SMC are widely used in web content. There are newspapers and portals that switched to traditional orthography. Popular illustrated weeklies and science magazines switched to traditional orthography style in print. 
+
+ \paragraph{}
+Currently everyone learns to read and write reformed orthography as part of school curriculam, but practially uses and are accustomed to  the traditional orthographic style in everyday life. Non-digital media including wall writings, graffiti, bill-boards and handwriting were always sticking to the traditional orthographic set. 
 
 \begin{figure}[H]
 	\centering
@@ -331,38 +384,19 @@ Now that the technology has matured enough to support the traditional orthograph
 	\caption{Samakalika Malayalam, a popular illustrated weekly announcing their return to traditional orthography. 2017 October}
 	\label{samakalikam}
 \end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.4]{images/2017-Mathrubhumi-newspaper.png}
-	\caption{Mathrubhumi news paper in 2017. It continues to follow semi-reformed orthography, but started using traditional orthography in headlines.}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\textwidth, height=8cm]{images/2017-icu-meme.jpg}
-	\caption{Internet meme example in Malayalam. Uses traditional orthography font. 2017 November}
-	\label{meme}
-\end{figure}
-
 \paragraph{}
-Textbooks continue to follow reformed orthography. Children learn reformed orthography only in schools. But outside world is changing. 
-
+Now that the technology has matured enough to support the traditional orthography, it is becoming more and more popular in the degital domain as well. There are newspapers and portals that switched to traditional orthography. Popular illustrated weeklies and science magazines switched to traditional orthography style in print. See Figures \ref{samakalikam} and \ref{eureka}.
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[scale=0.4]{images/2017-Mathrubhumi-newspaper.png}
+%	\caption{Mathrubhumi news paper in 2017. It continues to follow semi-reformed orthography, but started using traditional orthography in headlines.}
+%\end{figure}
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.3]{images/2017-Eureka.jpg}
 	\caption{Eureka, a famous science magazine for childrens changed to traditional orthography printing in November 2017.}
 	\label{eureka}
 \end{figure}
-
-
-
-%\begin{figure}[h!]
-%	\centering
-%	\includegraphics[width=1.0\textwidth]{images/Manjari-Body-Text.png}
-%	\caption{2017 Manjari font- a widely used unicode font}
-%\end{figure}
-
 
 \paragraph{}
 Kerala government is actively promoting Unicode usage in the official documents. Government orders are now mostly in Meera font, a traditional orthography font by SMC. Identity cards used for voting and public distribution system (See Figure \ref{rationcard}) etc also uses traditional orthography.
@@ -373,7 +407,20 @@ Kerala government is actively promoting Unicode usage in the official documents.
    \caption{2017 Identity card for public distribution system(Ration system)}
   \label{rationcard}
 \end{figure}
+\paragraph{}
+The traditional orthography fonts by SMC are widely used in web content. See an example in Figure \ref{meme}. 
 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{images/2017-icu-meme.jpg}
+	\caption{Internet meme example in Malayalam. Uses traditional orthography font. 2017 November}
+	\label{meme}
+\end{figure}
+
+
+
+\paragraph{}Figures  \ref{thondi}, \ref{muthassi} illustrates the adoption of traditional orthography in contemporary movie posters.
 
 \begin{figure}[H]
  \centering
@@ -389,11 +436,11 @@ Kerala government is actively promoting Unicode usage in the official documents.
  \label{muthassi}
 \end{figure}
 
-\paragraph{}Figures \ref{samakalikam}, \ref{meme}, \ref{eureka}, \ref{thondi}, \ref{muthassi} illustrates the adoption of traditional orthography in contemporary use cases.
 
 \section{Conclusion}
 \paragraph{}
-Technology played a crucial role in defining the orthography of Malayalam from printing to digital age. When technology, such as typewrites, had limitations, the Malayalam script went through a difficult reformation. But it flourished again with the help of digital technology. A single human generation is witnessing Malayalam's transition from traditional orthography to reformed orthography and then again to traditional orthography. 
+Technology played a crucial role in defining the orthography of Malayalam from printing to digital age. When technology, such as typewrites, had limitations, the Malayalam script went through a difficult reformation. But it flourished again with the help of digital technology. A single human generation is witnessing Malayalam's transition from traditional orthography to reformed orthography and then again to traditional orthography. The fact has been explained thrugh numerous examples in this paper.
+
 \paragraph{}
 Reformed orthography is sometimes referred as \textit{modern} and traditional as \textit{old}. But as traditional script is getting more popular in contemporary usage, calling it \textit{old} may not be right. So we consciously avoided those phrases in this paper.
 
@@ -405,6 +452,8 @@ Reformed orthography is sometimes referred as \textit{modern} and traditional as
 \bibitem{gupthannair} S. Gupthan Nair, \textit{Gadyam Pinnitta Vazhikal}{\manjari{ (ഗദ്യം പിന്നിട്ട വഴികൾ)} }, DC Books, Kottayam
 \bibitem{1971go} Order by the Government of Kerala, India, G. O. (P) 37/71/Edn. , \textit{Malayalam Script- Adoption of New Script for Use-Orders Issued}, Dated 23 March, 1971. \url{http://www.unicode.org/L2/L2008/08039-kerala-order.pdf}
 \bibitem{kavya} Kavya Manohar, \textit{u and uː vowel signs of Malayalam},\\ \url{https://kavyamanohar.com/post/2018-04-15-u-vowel-signs-malayalam/}
+\bibitem{thottingal}Santhosh Thottingal, \textit{Proposal for Malayalam language subtags for orthography variants rejected}, \url{https://thottingal.in/blog/2016/09/30/malayalam-language-subtags/}
+
 \end{thebibliography}
 
 \end{document}
