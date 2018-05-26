@@ -20,9 +20,24 @@
     citecolor={dark-blue}, urlcolor={medium-blue}
 }
 
-\setromanfont[BoldFont={Gentium Basic Bold},ItalicFont={Gentium Italic}]{Gentium}
-\newfontfamily\manjari{Manjari}
-\newfontfamily\raghu{Noto Sans Malayalam}
+\setmainfont{Gentium}[
+Path=fonts/,
+UprightFont=*-R.ttf,
+ItalicFont=*-I.ttf
+]
+
+\newfontfamily\manjari{Manjari}[
+Path=fonts/,
+UprightFont=*-Regular.otf,
+BoldFont=*-Bold.otf
+]
+
+\newfontfamily\raghu{NotoSansMalayalam}[
+Path=fonts/,
+UprightFont=*-Regular.ttf,
+BoldFont=*-Bold.ttf
+]
+
 \newcolumntype{L}{>{\centering\arraybackslash}m{3cm}}
 \linespread{1.2}
 \widowpenalty=10000
