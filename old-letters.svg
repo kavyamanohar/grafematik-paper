@@ -25,15 +25,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="114.73318"
-     inkscape:cy="222.19295"
+     inkscape:zoom="3"
+     inkscape:cx="399.33182"
+     inkscape:cy="1380.0251"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="839"
-     inkscape:window-x="1920"
+     inkscape:window-width="3200"
+     inkscape:window-height="1693"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="10"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -100,7 +100,7 @@
        xml:space="preserve"
        id="flowRoot911"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"
-       transform="matrix(0.41616856,0,0,0.41616856,-19.196453,-35.595117)"><flowRegion
+       transform="matrix(0.41616856,0,0,0.41616856,-19.196453,-33.478449)"><flowRegion
          id="flowRegion913"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d"><rect
            id="rect915"
@@ -110,7 +110,7 @@
            y="212.51968"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d" /></flowRegion><flowPara
          id="flowPara917">Consonant</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.41616856,0,0,0.41616856,32.329876,-35.049704)"
+       transform="matrix(0.41616856,0,0,0.41616856,32.329876,-32.933036)"
        xml:space="preserve"
        id="flowRoot911-8"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"><flowRegion
@@ -198,7 +198,7 @@
        xml:space="preserve"
        id="flowRoot911-6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"
-       transform="matrix(0.41616855,0,0,0.41616855,-19.593329,27.904883)"><flowRegion
+       transform="matrix(0.41616855,0,0,0.41616855,-19.593329,32.138219)"><flowRegion
          id="flowRegion913-4"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d"><rect
            id="rect915-5"
@@ -208,7 +208,7 @@
            y="212.51968"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d" /></flowRegion><flowPara
          id="flowPara917-3">Consonant</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.41616855,0,0,0.41616855,31.933,28.450298)"
+       transform="matrix(0.41616855,0,0,0.41616855,31.933,32.683634)"
        xml:space="preserve"
        id="flowRoot911-8-0"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"><flowRegion
@@ -296,7 +296,7 @@
        xml:space="preserve"
        id="flowRoot911-4"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"
-       transform="matrix(0.41616855,0,0,0.41616855,-18.799579,98.284049)"><flowRegion
+       transform="matrix(0.41616855,0,0,0.41616855,-18.799579,107.27993)"><flowRegion
          id="flowRegion913-1"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d"><rect
            id="rect915-9"
@@ -306,7 +306,7 @@
            y="212.51968"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d" /></flowRegion><flowPara
          id="flowPara917-1">Consonant</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.41616855,0,0,0.41616855,32.72675,98.829464)"
+       transform="matrix(0.41616855,0,0,0.41616855,32.72675,107.82534)"
        xml:space="preserve"
        id="flowRoot911-8-2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"><flowRegion
@@ -394,7 +394,7 @@
        xml:space="preserve"
        id="flowRoot911-63"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"
-       transform="matrix(0.41616855,0,0,0.41616855,-18.534995,166.01739)"><flowRegion
+       transform="matrix(0.41616855,0,0,0.41616855,-18.534995,171.83826)"><flowRegion
          id="flowRegion913-8"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d"><rect
            id="rect915-3"
@@ -404,7 +404,7 @@
            y="212.51968"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d" /></flowRegion><flowPara
          id="flowPara917-11">Consonant</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.41616855,0,0,0.41616855,32.991334,166.5628)"
+       transform="matrix(0.41616855,0,0,0.41616855,32.991334,172.38367)"
        xml:space="preserve"
        id="flowRoot911-8-6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"><flowRegion
@@ -629,7 +629,7 @@
        xml:space="preserve"
        id="flowRoot911-7-4"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667614px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"
-       transform="matrix(0.41616855,0,0,0.41616855,-18.931874,320.53406)"><flowRegion
+       transform="matrix(0.41616855,0,0,0.41616855,-21.048542,325.82576)"><flowRegion
          id="flowRegion913-5-3"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667614px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d"><rect
            id="rect915-6-3"
@@ -639,7 +639,7 @@
            y="212.51968"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667614px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d" /></flowRegion><flowPara
          id="flowPara1601">Conjunct</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.41616855,0,0,0.41616855,32.594456,321.07947)"
+       transform="matrix(0.41616855,0,0,0.41616855,30.477788,326.37117)"
        xml:space="preserve"
        id="flowRoot911-8-9-7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667614px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"><flowRegion
@@ -727,7 +727,7 @@
        xml:space="preserve"
        id="flowRoot911-7-7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667614px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"
-       transform="matrix(0.41616855,0,0,0.41616855,-18.138124,398.32158)"><flowRegion
+       transform="matrix(0.41616855,0,0,0.41616855,-18.138124,401.4966)"><flowRegion
          id="flowRegion913-5-9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667614px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d"><rect
            id="rect915-6-8"
@@ -737,7 +737,7 @@
            y="212.51968"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667614px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d" /></flowRegion><flowPara
          id="flowPara1761">Conjunct</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.41616855,0,0,0.41616855,33.388206,398.86699)"
+       transform="matrix(0.41616855,0,0,0.41616855,33.388206,402.04201)"
        xml:space="preserve"
        id="flowRoot911-8-9-1"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667614px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"><flowRegion
@@ -799,7 +799,7 @@
        xml:space="preserve"
        id="flowRoot911-7-9-2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none"
-       transform="matrix(0.41616855,0,0,0.41616855,77.13273,398.921)"><flowRegion
+       transform="matrix(0.41616855,0,0,0.41616855,77.13273,402.09602)"><flowRegion
          id="flowRegion913-5-1-0"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Gentium Basic';-inkscape-font-specification:'Gentium Basic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d"><rect
            id="rect915-6-9-8"
